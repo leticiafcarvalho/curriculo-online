@@ -1,79 +1,107 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Letícia Franco</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Currículo de Letícia Greve</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container mt-5">
         <header class="text-center mb-5">
+            <img src="img.jpg" alt="Perfil" class="profile-image">
             <h1>Letícia Franco Carvalho Machado de Azevedo Greve</h1>
-            <p>Desenvolvedora Full Stack</p>
-            <p>
-                <a href="mailto:leticia.fgreve@gmail.com">leticia.fgreve@gmail.com</a> | 
-                <a href="https://github.com/leticiafcarvalho" target="_blank">GitHub</a> | 
-                <a href="https://www.linkedin.com/in/let%C3%ADcia-franco-carvalho-machado-de-azevedo-greve-799407169/" target="_blank">LinkedIn</a>
-            </p>
+            <p class="contact-info">📍 Campinas, SP | 📞 (19) 99415-8151 | ✉️ <a href="mailto:leticia.fgreve@gmail.com">leticia.fgreve@gmail.com</a> | <a href="https://www.linkedin.com/in/let%C3%ADcia-franco-carvalho-machado-de-azevedo-greve-799407169/" target="_blank">LinkedIn</a> | <a href="https://github.com/seu-usuario" target="_blank">GitHub</a></p>
         </header>
 
-        <section id="resumo">
+        <section class="resume-section">
             <h2>Resumo Profissional</h2>
-            <p>Desenvolvedora Full Stack com mais de 4 anos de experiência em análise e desenvolvimento de sistemas...</p>
+            <p>Desenvolvedor Full Stack com mais de 4 anos de experiência em análise e desenvolvimento de sistemas. Competente em tecnologias como ASP.NET, .NET Core, React, Node.js, JavaScript, SQL Server, e mais. Tenho paixão por aprender e aplicar novas tecnologias em soluções eficientes e inovadoras. Em busca de novas oportunidades para contribuir com minhas habilidades em desenvolvimento web e crescimento profissional.</p>
         </section>
 
-        <section id="experiencia" class="mt-5">
+        <section class="resume-section">
             <h2>Experiência Profissional</h2>
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <strong>Fitcard</strong> - Desenvolvedora (Dezembro 2019 – Outubro 2024)
+            <div class="experience">
+                <div class="experience-item">
+                    <h3>Analista Desenvolvedora</h3>
+                    <p>Fitcard | Campinas, SP (Remoto) | Dezembro 2019 – Outubro 2024</p>
                     <ul>
-                        <li>Desenvolvimento full stack com ASP.NET, .NET Core, SQL Server, JavaScript, etc.</li>
+                        <li>Desenvolvimento full stack com tecnologias ASP.NET, .NET Core, ASP.NET Web Forms, SQL Server, JavaScript, HTML5, CSS3, Bootstrap.</li>
+                        <li>Implementação de melhorias e manutenção de sistemas corporativos, otimizando a experiência do usuário e integrando novas funcionalidades.</li>
+                        <li>Colaboração com equipes multidisciplinares para o desenvolvimento de soluções eficientes e escaláveis.</li>
                     </ul>
-                </li>
-                <li class="list-group-item">
-                    <strong>IMA - Informática de Municípios Associados</strong> - Estagiária (Março 2019 – Novembro 2019)
+                </div>
+                <div class="experience-item">
+                    <h3>Estagiária em Desenvolvimento</h3>
+                    <p>IMA - Informática de Municípios Associados | Campinas, SP | Março 2019 – Novembro 2019</p>
                     <ul>
-                        <li>Desenvolvimento e manutenção de sistemas com PHP e Symfony.</li>
+                        <li>Desenvolvimento e manutenção de sistemas voltados para o setor de Educação da Prefeitura de Campinas, utilizando PHP e Symfony.</li>
+                        <li>Participação em projetos de teste com Ruby e em curso de Inteligência Artificial fornecido pela prefeitura, utilizando Python.</li>
                     </ul>
-                </li>
-            </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Jovem Aprendiz - Administrativo</h3>
+                    <p>Hospital PUC Campinas – Celso Pierro | Campinas, SP | Março 2017 – Julho 2018</p>
+                    <ul>
+                        <li>Atuação no setor administrativo do laboratório de análises clínicas, com foco no atendimento ao cliente e organização de documentos.</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
-        <section id="educacao" class="mt-5">
+        <section class="resume-section">
             <h2>Formação Acadêmica</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Pós-Graduação Lato Sensu em Desenvolvimento de Aplicações Web - Faculdade Facuminas (Conclusão prevista: Fevereiro 2024)</li>
-                <li class="list-group-item">Tecnologia em Análise e Desenvolvimento de Sistemas - IFSP (Junho 2021)</li>
+            <ul>
+                <li><strong>Pós-Graduação Lato Sensu em Desenvolvimento de Aplicações Web</strong> | Faculdade Facuminas | Conclusão prevista: Fevereiro 2024</li>
+                <li><strong>Pós-Graduação Lato Sensu em Banco de Dados</strong> | Faculdade Facuminas | Conclusão prevista: Fevereiro 2024</li>
+                <li><strong>Tecnologia em Análise e Desenvolvimento de Sistemas</strong> | Instituto Federal de Educação, Ciência e Tecnologia de São Paulo - IFSP | Junho 2021</li>
             </ul>
         </section>
 
-        <section id="certificacoes" class="mt-5">
+        <section class="resume-section">
             <h2>Cursos e Certificações</h2>
-            <ul class="list-group">
-                <li class="list-group-item">Angular: Componentização e Design com Angular Material – Alura | Abril 2024</li>
-                <li class="list-group-item">Análise de Dados com Python – Alura | Fevereiro 2024</li>
+            <ul>
+                <li>Angular: Componentização e Design com Angular Material – Alura | Abril 2024</li>
+                <li>HTTP: Entendendo a Web por Baixo dos Panos – Alura | Março 2024</li>
+                <li>Node.js: Criando uma API Rest com Express e MongoDB – Alura | Março 2024</li>
+                <li>Análise de Dados com Python – Alura | Fevereiro 2024</li>
+                <li>React e Node.js: Consumindo APIs no React – Alura | Novembro 2023</li>
+                <li>Formação Full Stack JavaScript: React e Node.js – Alura | Novembro 2023</li>
+                <li>Python e GPT: Criando um Chatbot com IA – Alura | Fevereiro 2024</li>
             </ul>
         </section>
 
-        <section id="habilidades" class="mt-5">
+        <section class="resume-section">
             <h2>Habilidades Técnicas</h2>
-            <ul class="list-group">
-                <li class="list-group-item">JavaScript, TypeScript, Python, Ruby, PHP</li>
-                <li class="list-group-item">React, Node.js, ASP.NET, .NET Core, Symfony</li>
-                <li class="list-group-item">SQL Server, MongoDB, MySQL</li>
+            <ul>
+                <li>Linguagens: JavaScript, TypeScript, Python, Ruby, PHP</li>
+                <li>Frameworks: React, Node.js, ASP.NET, .NET Core, Symfony</li>
+                <li>Front-End: HTML5, CSS3, Bootstrap, Angular Material, React</li>
+                <li>Back-End: Express.js, ASP.NET Web Forms, APIs REST</li>
+                <li>Bancos de Dados: SQL Server, MongoDB, MySQL</li>
+                <li>Ferramentas: Git, Visual Studio, Docker</li>
+                <li>Outras Competências: Desenvolvimento Full Stack, Análise de Sistemas, Segurança da Informação</li>
+            </ul>
+        </section>
+
+        <section class="resume-section">
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Português: Nativo</li>
+                <li>Inglês: Básico (em estudo, buscando aperfeiçoamento)</li>
             </ul>
         </section>
 
         <footer class="text-center mt-5">
-            <p>Entre em contato via <a href="mailto:leticia.fgreve@gmail.com">e-mail</a></p>
+            <p>&copy; 2024 Letícia Franco Carvalho Machado de Azevedo Greve. Todos os direitos reservados.</p>
         </footer>
     </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
