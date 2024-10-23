@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #0073e6;
+}
+
+p, ul {
+    color: #333;
+}
+
+.list-group-item {
+    border: none;
+    background-color: #e0f7fa;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
